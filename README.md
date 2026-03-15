@@ -268,8 +268,3 @@ The notebook also performs **data quality auditing** before feature
 extraction.
 
 ------------------------------------------------------------------------
-
-# Author
-
-E. A. Rodríguez Martínez\
-CHIMERE Laboratory -- Université de Picardie Jules Verne

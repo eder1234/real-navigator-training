@@ -1,0 +1,43 @@
+{
+  "feature_columns": [
+    "sim",
+    "rmse",
+    "x",
+    "y",
+    "z",
+    "qw",
+    "qx",
+    "qy",
+    "qz"
+  ],
+  "class_names": [
+    "forward",
+    "left",
+    "right",
+    "update memory"
+  ],
+  "hidden_dims": [
+    128,
+    64
+  ],
+  "dropout": 0.1,
+  "batch_size": 64,
+  "max_epochs": 150,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "early_stopping_patience": 20,
+  "random_state": 42,
+  "device": "cuda",
+  "n_total": 1640,
+  "n_train_for_fit": 1394,
+  "n_val_for_early_stopping": 246,
+  "best_epoch": 42,
+  "best_val_bal_acc": 0.6451083954708644,
+  "class_weights": [
+    0.4339975093399751,
+    1.4766949152542372,
+    1.805699481865285,
+    2.1512345679012346
+  ],
+  "notes": "Final deployable model trained on all available rows with an internal validation split used only for early stopping."
+}
